@@ -1,0 +1,63 @@
+select * from table name 
+where age>30
+
+
+where helps to filter the rows it is a clause
+use where to work on any of the specific query
+
+
+select * from table name 
+where firstname like "A%"
+
+like is a wild card 
+
+A% start with A ends with any thing
+
+%A starts with anything but end with A
+
+
+
+
+update records 
+sql query:-
+
+
+
+
+
+
+update customers 
+set lastname="tiwari"
+where cust_id=106;
+
+
+delete from customers 
+where cust_id=1001;
+
+
+
+truncate wipe out at once but delete use specific row or data and goes step by step
+
+delete keep space as null on rows which are deleted where as truncate delete space also
+
+
+
+
+select * from customers
+where age is null;
+
+
+
+
+
+
+
+
+
+
+
+TOPIC:- ALISE
+
+USE AS=ALISE
+
+SELECT COUNT(*) AS COUNT NO FROM CUSTOMERS 
