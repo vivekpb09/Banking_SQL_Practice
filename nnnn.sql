@@ -49,5 +49,7 @@ alter table customers
 add column Age int not null;
 
 
-ALTER TABLE CUSTOMERS
+ALTER TABLE CUSTOMERS;
 
+alter table ACCOUNTS
+add column Age int not null
